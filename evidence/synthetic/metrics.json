@@ -1,0 +1,78 @@
+{
+  "sessions": 3,
+  "positive_sessions": 2,
+  "tp": 1,
+  "fp": 1,
+  "fn": 1,
+  "tn_sessions": 0,
+  "precision": 0.5,
+  "recall": 0.5,
+  "duplicate_events": 0,
+  "alert_delay_total_s": {
+    "n": 1,
+    "p50": 5.0,
+    "p95": 5.0
+  },
+  "reminder": {
+    "matched": 1,
+    "unmatched": 0,
+    "delay_s": {
+      "n": 1,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "association_accuracy": null,
+    "association_note": "Requires independent person/object identity annotations, absent from label schema."
+  },
+  "per_event": [
+    {
+      "session_id": "synthetic-positive-a",
+      "event_id": "a1",
+      "episode_id": "e1",
+      "type": "UNATTENDED_ALERT",
+      "t_s": 6.0,
+      "seat_id": "A",
+      "person_id": "1",
+      "object_id": "2",
+      "reason": "synthetic unattended",
+      "outcome": "TP"
+    },
+    {
+      "session_id": "synthetic-negative",
+      "event_id": "a2",
+      "episode_id": "e1",
+      "type": "UNATTENDED_ALERT",
+      "t_s": 6.0,
+      "seat_id": "A",
+      "person_id": "1",
+      "object_id": "2",
+      "reason": "synthetic false positive",
+      "outcome": "FP"
+    },
+    {
+      "session_id": "synthetic-positive-a",
+      "event_id": "r1",
+      "episode_id": "e1",
+      "type": "REMINDER",
+      "t_s": 1.0,
+      "seat_id": "A",
+      "person_id": "1",
+      "object_id": "2",
+      "reason": "synthetic crossing",
+      "outcome": "REMINDER_MATCH"
+    }
+  ],
+  "frames": {
+    "n": 0,
+    "processing_ms": {
+      "n": 0,
+      "p50": null,
+      "p95": null
+    },
+    "covered_s": 0.0,
+    "gap_s": 0.0,
+    "uncertain_s": 0.0,
+    "uncertain_fraction": null,
+    "method": "Left-state intervals <=0.5s; gaps and final frame excluded."
+  }
+}

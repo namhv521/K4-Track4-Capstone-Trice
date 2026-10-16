@@ -1,0 +1,30 @@
+{
+  "kind": "TLS-verified simulated phone protocol with real local video image and real YOLO, not physical phone",
+  "session_id": "b89c7e7b79f348a185573af44fd172c8",
+  "frames": [
+    {
+      "frame_id": 0,
+      "state": "UNASSIGNED",
+      "tables": 1,
+      "source_seq": 0,
+      "image_received": true
+    },
+    {
+      "frame_id": 1,
+      "state": "UNASSIGNED",
+      "tables": 1,
+      "source_seq": 1,
+      "image_received": true
+    },
+    {
+      "frame_id": 2,
+      "state": "UNASSIGNED",
+      "tables": 1,
+      "source_seq": 2,
+      "image_received": true
+    }
+  ],
+  "physical_phone_verified": false,
+  "speaker_audibility_verified": false,
+  "accuracy_verified": false
+}

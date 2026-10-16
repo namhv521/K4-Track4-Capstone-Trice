@@ -1,0 +1,4 @@
+session_id,scenario_id,is_abandoned,t_leave_s,t_return_s,t_end_s,notes
+synthetic-positive-a,T02,1,1,,15,SYNTHETIC scorer test only
+synthetic-positive-b,T02,1,1,,15,SYNTHETIC scorer test only
+synthetic-negative,T01,0,,,15,SYNTHETIC scorer test only

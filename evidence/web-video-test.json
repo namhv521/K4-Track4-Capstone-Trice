@@ -1,0 +1,41 @@
+[
+  {
+    "video": "video1.avi",
+    "session_id": "0a2c428d3f044ae7b3e7d16faf542535",
+    "processed_frames_received": 365,
+    "complete": true,
+    "tracks_received": 369,
+    "states": {
+      "UNASSIGNED": 365
+    },
+    "wall_s": 155.52,
+    "db_frame_count": 365,
+    "accuracy_verified": false
+  },
+  {
+    "video": "video8.avi",
+    "session_id": "9d02cd0b5c3943a2bee33e19b4af915f",
+    "processed_frames_received": 30,
+    "complete": false,
+    "tracks_received": 0,
+    "states": {
+      "UNASSIGNED": 30
+    },
+    "wall_s": 12.34,
+    "db_frame_count": 30,
+    "accuracy_verified": false
+  },
+  {
+    "video": "video9.avi",
+    "session_id": "f798cc5727bf435292506d3023dae3b3",
+    "processed_frames_received": 30,
+    "complete": false,
+    "tracks_received": 0,
+    "states": {
+      "UNASSIGNED": 30
+    },
+    "wall_s": 10.17,
+    "db_frame_count": 30,
+    "accuracy_verified": false
+  }
+]

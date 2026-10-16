@@ -11,3 +11,12 @@ runs/*
 !data/local/.gitkeep
 !runs/.gitkeep
 .env
+
+.ultralytics/
+.pytest_cache/
+data/*.sqlite3*
+data/tls/
+data/tls-*/
+web/trice-local-ca.crt
+web/trice-local-ca.cer
+web/trice-camera.mobileconfig

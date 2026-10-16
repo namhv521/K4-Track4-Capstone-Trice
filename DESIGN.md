@@ -1,0 +1,3 @@
+# Web dashboard visual decisions
+
+Vietnamese operational interface, warm light workspace with slate typography and emerald action color; dark camera viewport is the focal region. Compact left navigation, broad video workspace, narrower evidence inspector. Explicit idle/loading/running/error/stopped states and accessible text labels. Data video and browser camera have distinct controls; no fake totals or synthetic success figures. Technology and temporary ID limitations visible near person/item crops. Responsive stacked layout on narrow screens. Historical sessions/events read SQLite rather than mock data.

@@ -1,0 +1,13 @@
+{
+  "source": "real webcam without raw media",
+  "run": "runs\\20261016_155136_054833",
+  "n_frames": 50,
+  "n_steady_after_10_warmup": 40,
+  "inference_ms_p50": 206.40400000002046,
+  "inference_ms_p95": 277.77227500009747,
+  "reasons": [
+    "FRAME_GAP",
+    "IMAGE_QUALITY"
+  ],
+  "accuracy_verified": false
+}

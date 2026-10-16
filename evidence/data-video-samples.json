@@ -1,0 +1,142 @@
+{
+  "kind": "real provided videos sampled inference, no independent labels, not accuracy",
+  "videos": [
+    {
+      "file": "video1.avi",
+      "duration_s": 73.0397063730397,
+      "sampled_frames": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "quality_ok": true,
+          "classes": []
+        },
+        {
+          "frame_index": 547,
+          "time_s": 18.251584918251584,
+          "quality_ok": true,
+          "classes": [
+            {
+              "class": "person",
+              "confidence": 0.875,
+              "id": null
+            }
+          ]
+        },
+        {
+          "frame_index": 1094,
+          "time_s": 36.50316983650317,
+          "quality_ok": true,
+          "classes": [
+            {
+              "class": "person",
+              "confidence": 0.901,
+              "id": null
+            },
+            {
+              "class": "person",
+              "confidence": 0.849,
+              "id": null
+            }
+          ]
+        },
+        {
+          "frame_index": 1641,
+          "time_s": 54.75475475475476,
+          "quality_ok": true,
+          "classes": []
+        },
+        {
+          "frame_index": 2188,
+          "time_s": 73.00633967300634,
+          "quality_ok": true,
+          "classes": []
+        }
+      ]
+    },
+    {
+      "file": "video8.avi",
+      "duration_s": 159.5261928595262,
+      "sampled_frames": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "quality_ok": true,
+          "classes": []
+        },
+        {
+          "frame_index": 1195,
+          "time_s": 39.87320653987321,
+          "quality_ok": true,
+          "classes": []
+        },
+        {
+          "frame_index": 2390,
+          "time_s": 79.74641307974642,
+          "quality_ok": true,
+          "classes": []
+        },
+        {
+          "frame_index": 3585,
+          "time_s": 119.61961961961963,
+          "quality_ok": true,
+          "classes": [
+            {
+              "class": "person",
+              "confidence": 0.617,
+              "id": 1
+            }
+          ]
+        },
+        {
+          "frame_index": 4780,
+          "time_s": 159.49282615949284,
+          "quality_ok": true,
+          "classes": []
+        }
+      ]
+    },
+    {
+      "file": "video9.avi",
+      "duration_s": 82.91624958291625,
+      "sampled_frames": [
+        {
+          "frame_index": 0,
+          "time_s": 0.0,
+          "quality_ok": true,
+          "classes": []
+        },
+        {
+          "frame_index": 621,
+          "time_s": 20.72072072072072,
+          "quality_ok": true,
+          "classes": [
+            {
+              "class": "person",
+              "confidence": 0.916,
+              "id": 1
+            }
+          ]
+        },
+        {
+          "frame_index": 1242,
+          "time_s": 41.44144144144144,
+          "quality_ok": true,
+          "classes": []
+        },
+        {
+          "frame_index": 1863,
+          "time_s": 62.16216216216216,
+          "quality_ok": true,
+          "classes": []
+        },
+        {
+          "frame_index": 2484,
+          "time_s": 82.88288288288288,
+          "quality_ok": true,
+          "classes": []
+        }
+      ]
+    }
+  ]
+}

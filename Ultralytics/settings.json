@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "C:\\Su\\VinLab\\phase2-track4\\datasets",
+  "weights_dir": "C:\\Su\\VinLab\\phase2-track4\\Trice\\weights",
+  "runs_dir": "C:\\Su\\VinLab\\phase2-track4\\Trice\\runs",
+  "uuid": "5c80bdf06ec5c0cf492e52142f088c3ff5ce2264c6e638155cc0b5012c34ed45",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

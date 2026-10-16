@@ -1,0 +1,4 @@
+session_id,event_id,episode_id,type,t_s,seat_id,person_id,object_id,reason
+synthetic-positive-a,r1,e1,REMINDER,1,A,1,2,synthetic crossing
+synthetic-positive-a,a1,e1,UNATTENDED_ALERT,6,A,1,2,synthetic unattended
+synthetic-negative,a2,e1,UNATTENDED_ALERT,6,A,1,2,synthetic false positive

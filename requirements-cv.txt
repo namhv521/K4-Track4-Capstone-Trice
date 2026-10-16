@@ -1,3 +1,7 @@
-# A: pin chính xác sau khi kiểm chứng trên máy demo.
-# Dependencies dự kiến: ultralytics, opencv-python, numpy.
-# Không coi file comment này là môi trường inference đã sẵn sàng.
+ultralytics==8.3.221
+lap==0.5.12
+torch==2.8.0
+torchvision==0.23.0
+ultralytics-thop==2.0.18
+opencv-python==4.10.0.84
+numpy==2.3.5
