@@ -1,0 +1,3 @@
+# A: pin chính xác sau khi kiểm chứng trên máy demo.
+# Dependencies dự kiến: ultralytics, opencv-python, numpy.
+# Không coi file comment này là môi trường inference đã sẵn sàng.

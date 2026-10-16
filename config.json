@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "confidence_min": 0.35,
+  "imgsz": 640,
+  "stationary_s": 2.0,
+  "association_s": 2.0,
+  "leave_confirm_s": 2.0,
+  "alert_after_exit_s": 5.0,
+  "lost_grace_s": 1.5,
+  "max_frame_gap_s": 0.5,
+  "stationary_radius_norm": 0.03,
+  "association_distance_norm": 0.15,
+  "exit_hysteresis_norm": 0.02,
+  "seat_id": "A",
+  "geometry_calibrated": false,
+  "roi_norm": [[0.05, 0.05], [0.75, 0.05], [0.75, 0.95], [0.05, 0.95]],
+  "exit_line_norm": [[0.75, 0.0], [0.75, 1.0]],
+  "inside_side": "left"
+}
